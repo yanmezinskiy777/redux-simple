@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redux": "^4.2.0",
-    "typescript": "^4.6.4"
+    "redux": "^4.2.0"
   }
 }
