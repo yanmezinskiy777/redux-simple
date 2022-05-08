@@ -4,7 +4,7 @@ const createStore = redux.createStore;
 const thunk = require("redux-thunk").default;
 
 const { userReducer } = require("./reducer/user");
-const { onFetchUsers } = require('./api');
+const { onFetchUsers } = require("./api");
 
 const store = createStore(userReducer, applyMiddleware(thunk));
 
